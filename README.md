@@ -4,10 +4,10 @@ model -> RIFE
 
 Deep learning-based video frame interpolation
 NVIDIA DLSS frame generation uses the GPU to generate frames 
-We will train the RIFE model from scratch on the CPU and build the full pipeline for the video interpolation
+We will use the pretrained RIFE model on the CPU and build the full pipeline for the video interpolation
 
 #Structure
-`data` - dataset with test images
+`frames` - dataset with test images
 `outputs` - the generated frames from test images
 `videos` - videos files 
 `models` - RIFE model
