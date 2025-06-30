@@ -1,4 +1,6 @@
-#DLSS (deep learning super sampling) frame generation 
+#DLSS
+
+(deep learning super sampling) frame generation 
 model -> RIFE
 
 
@@ -7,20 +9,29 @@ NVIDIA DLSS frame generation uses the GPU to generate frames
 We will use the pretrained RIFE model on the CPU and build the full pipeline for the video interpolation
 
 #Structure
+
 `frames` - dataset with test images
+
 `outputs` - the generated frames from test images
+
 `videos` - videos files 
+
 `models` - RIFE model
 
 
 #Setup
+
 1-Python virtual-env
+
 python3 -m venv dlss-env
+
 source dlss-env/bin/activate
 
 
 2-Dependancies
+
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+
 pip install opencv-python numpy tqdm matplotlib
 
 #Usage
