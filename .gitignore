@@ -1,0 +1,11 @@
+frames/
+videos/
+outputs/
+data/
+__pycache__/
+*.log
+
+frames/
+videos/
+outputs/
+data/
